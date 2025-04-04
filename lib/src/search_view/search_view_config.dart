@@ -13,6 +13,7 @@ class SearchViewConfig {
   /// Constructor
   const SearchViewConfig({
     this.backgroundColor = const Color(0xFFEBEFF2),
+    this.backgroundSearchBarFilledColor = Colors.transparent,
     this.buttonIconColor = Colors.black26,
     this.inputTextStyle,
     this.hintText = 'Search',
@@ -22,6 +23,9 @@ class SearchViewConfig {
 
   /// Background color of search bar
   final Color backgroundColor;
+
+  /// Background color of search text field
+  final Color backgroundSearchBarFilledColor;
 
   /// Icon color of hide search view button
   final Color buttonIconColor;

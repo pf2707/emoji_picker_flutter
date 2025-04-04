@@ -62,6 +62,8 @@ class DefaultSearchViewState extends SearchViewState {
                     style: widget.config.searchViewConfig.inputTextStyle,
                     decoration: InputDecoration(
                       border: InputBorder.none,
+                      filled: true,
+                      fillColor: widget.config.searchViewConfig.backgroundSearchBarFilledColor,
                       hintText: widget.config.searchViewConfig.hintText,
                       hintStyle: widget.config.searchViewConfig.hintTextStyle,
                       contentPadding:
